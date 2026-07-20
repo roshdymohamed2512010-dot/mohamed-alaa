@@ -1,0 +1,39 @@
+.signature{
+    margin-top:40px;
+    font-size:34px;
+    font-weight:bold;
+    color:#000000;
+    line-height:1.8;
+    text-align:center;
+}
+
+.invitation{
+    margin-top:25px;
+    font-size:30px;
+    font-weight:bold;
+    color:#000000;
+    background:rgba(255,255,255,0.85);
+    padding:18px;
+    border-radius:15px;
+    display:inline-block;
+}
+
+.photo-box{
+    display:flex;
+    justify-content:center;
+    margin:25px 0;
+}
+
+.photo-box img{
+    width:350px;
+    max-width:90%;
+    height:auto;
+    border-radius:20px;
+    border:5px solid #fff;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+}
+
+.photo-box img:hover{
+    transform:scale(1.05);
+
+}
